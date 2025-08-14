@@ -1,0 +1,12 @@
+{
+  "name": "wordpress-docker-environment",
+  "version": "1.0.0",
+  "author": "Leônidas Santos <oi@ltco.com.br>",
+  "license": "MIT",
+  "scripts": {
+    "mount-compose": "docker-compose up -d --build",
+    "unmount-compose": "docker-compose down -v",
+    "start-compose": "docker-compose start",
+    "stop-compose": "docker-compose stop"
+  }
+}
